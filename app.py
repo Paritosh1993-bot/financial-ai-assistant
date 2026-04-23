@@ -1,3 +1,9 @@
+import streamlit as st
+import yfinance as yf
+import pandas as pd
+import matplotlib.pyplot as plt
+import ta
+import plotly.graph_objects as go
 ticker = st.text_input("Enter Stock Symbol (e.g., TCS.NS)", "TCS.NS")
 
 if ticker:
